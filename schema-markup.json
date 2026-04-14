@@ -1,0 +1,225 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://jarifurrahim.one/#person",
+      "name": "G.K.M. Jarif Ur Rahim",
+      "alternateName": "Jarif Ur Rahim",
+      "description": "Founder & Lead Consultant of Rashik - The Awakening. Career Strategist, Technology Consultant, Educator, and Spiritual Guide based in Bangladesh.",
+      "url": "https://jarifurrahim.one",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://jarifurrahim.one/images/jarif-profile.jpg",
+        "width": 300,
+        "height": 300
+      },
+      "sameAs": [
+        "https://linkedin.com/in/jarifurrahim",
+        "https://twitter.com/jarifurrahim",
+        "https://instagram.com/jarifurrahim"
+      ],
+      "jobTitle": [
+        "Founder & Lead Consultant",
+        "Career Strategist",
+        "Technology Consultant",
+        "Educator",
+        "Spiritual Consultant"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://rashik.org/#organization",
+        "name": "Rashik - The Awakening"
+      },
+      "knowsAbout": [
+        "System Architecture",
+        "Digital Transformation",
+        "Career Strategy",
+        "Technology Consulting",
+        "AI and Automation",
+        "Spiritual Guidance",
+        "Business Strategy"
+      ],
+      "hasOccupation": [
+        {
+          "@type": "Occupation",
+          "name": "Technology Consultant",
+          "description": "Provides strategic technology consulting for digital transformation"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Career Strategist",
+          "description": "Guides professionals in career development and personal branding"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Educator",
+          "description": "Teaches technology, business strategy, and personal development"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://rashik.org/#organization",
+      "name": "Rashik - The Awakening",
+      "alternateName": "The Awakening | Rashik",
+      "description": "A Career & Spiritual Consulting Zone that guides students, professionals, and institutions to navigate the future with clarity. We help build successful careers and find mental/spiritual balance through the philosophy of 'Reconnecting Intelligence With The Soul.'",
+      "url": "https://rashik.org",
+      "sameAs": [
+        "https://jarifurrahim.one",
+        "https://consultant.jarifurrahim.one",
+        "https://bazar.rashik.org"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://rashik.org/logo.png",
+        "width": 250,
+        "height": 60
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://rashik.org/banner.jpg"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://jarifurrahim.one/#person"
+      },
+      "foundingDate": "2020",
+      "areaServed": [
+        "BD",
+        "IN",
+        "Global"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "telephone": "+880-1XXX-XXXXXX",
+        "email": "contact@rashik.org"
+      },
+      "knowsAbout": [
+        "Career Development",
+        "Technology Consulting",
+        "Digital Transformation",
+        "Spiritual Guidance",
+        "Business Strategy"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jarifurrahim.one/#website",
+      "url": "https://jarifurrahim.one",
+      "name": "G.K.M. Jarif Ur Rahim - Personal Portfolio",
+      "description": "Personal portfolio and digital identity of G.K.M. Jarif Ur Rahim - Founder of Rashik, Career Strategist, Technology Consultant, and Spiritual Guide.",
+      "publisher": {
+        "@type": "Person",
+        "@id": "https://jarifurrahim.one/#person"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://jarifurrahim.one/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://jarifurrahim.one/#webpage",
+      "url": "https://jarifurrahim.one",
+      "name": "Home - Jarif Ur Rahim",
+      "description": "Explore the work of Jarif Ur Rahim - a career strategist, technology consultant, and founder of Rashik. Discover insights on digital transformation, career development, and spiritual guidance.",
+      "isPartOf": {
+        "@id": "https://jarifurrahim.one/#website"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://jarifurrahim.one/og-image.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "datePublished": "2020-01-01",
+      "dateModified": "2026-04-15"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://jarifurrahim.one"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://jarifurrahim.one/about"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Services",
+          "item": "https://jarifurrahim.one/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Blog",
+          "item": "https://jarifurrahim.one/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Contact",
+          "item": "https://jarifurrahim.one/contact"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is Jarif Ur Rahim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "G.K.M. Jarif Ur Rahim is the Founder & Lead Consultant of Rashik - The Awakening. He is a career strategist, technology consultant, educator, and spiritual guide based in Bangladesh. His core philosophy is 'Reconnecting Intelligence With The Soul.'"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Rashik - The Awakening?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rashik - The Awakening is a Career & Spiritual Consulting Zone that guides students, professionals, and institutions to navigate the future with clarity. It helps build successful careers and find mental/spiritual balance through strategic consulting and spiritual guidance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What services does Jarif offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jarif offers comprehensive consulting services including System Architecture Consulting, Digital Transformation Strategy, Career Development Coaching, Technology Consulting, and Spiritual Guidance. He specializes in helping organizations and individuals align technology with purpose."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I work with Jarif?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can schedule a consultation through his website at jarifurrahim.one or consultant.jarifurrahim.one. He offers personalized consulting for individuals and organizations seeking digital transformation and career development."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the philosophy behind Rashik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The core philosophy is 'Reconnecting Intelligence With The Soul' - bridging the gap between modern technology and timeless wisdom. It emphasizes aligning technological advancement with human values, spiritual growth, and sustainable business practices."
+          }
+        }
+      ]
+    }
+  ]
+}
