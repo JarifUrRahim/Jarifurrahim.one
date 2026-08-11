@@ -33,6 +33,9 @@
       h1 { margin:18px 0 24px; max-width:870px; font-size:clamp(3.25rem, 8.5vw, 7rem); line-height:.92; letter-spacing:-.065em; font-weight:500; }
       .subtitle { max-width:700px; margin:0; color:#3d3742; font-size:clamp(1.25rem,2vw,1.65rem); line-height:1.45; }
       .rule { width:72px; height:2px; margin:44px 0; background:var(--gold); }
+      .edition-actions { display:flex; align-items:center; flex-wrap:wrap; gap:14px; margin:-18px 0 42px; font:600 12px/1.2 Arial,sans-serif; letter-spacing:.05em; text-transform:uppercase; }
+      .edition-actions a { padding:11px 14px; border:1px solid var(--violet); background:var(--violet); color:#fff; text-decoration:none; }
+      .edition-actions span { color:var(--muted); }
       .manifesto { max-width:790px; font-size:1.17rem; }
       .manifesto strong { color:var(--violet); }
       .chapter-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin:52px 0 42px; }
@@ -65,12 +68,15 @@
         "datePublished":"2026-08-12",
         "dateModified":"2026-08-12",
         "creativeWorkStatus":"Draft living edition",
+        "bookFormat":"https://schema.org/EBook",
+        "numberOfPages":87,
         "genre":["Responsible AI","Philosophy of Technology","Cognitive System Design"],
         "keywords":"responsible AI, AI ethics, human agency, cognitive system design, philosophy of intelligence, future of work, AI literacy, technology and human values",
         "author":{"@type":"Person","name":"G. K. M. Jarif Ur Rahim","url":"https://jarifurrahim.one","sameAs":["https://orcid.org/0009-0004-0763-322X"]},
         "publisher":{"@type":"Organization","name":"Rashik - The Awakening","url":"https://www.rashik.org/"},
         "description":"A living, evidence-bearing work on responsible artificial intelligence, human agency, cognitive system design, and the future of work.",
         "isAccessibleForFree":true,
+        "associatedMedia":{"@type":"MediaObject","contentUrl":"https://iqra.jarifurrahim.one/downloads/reconnecting-intelligence-with-the-soul-book-edition-0.1.pdf","encodingFormat":"application/pdf","name":"Reconnecting Intelligence With The Soul — Book Edition 0.1 PDF"},
         "about":[
           {"@type":"DefinedTerm","name":"Responsible Artificial Intelligence"},
           {"@type":"DefinedTerm","name":"Human Agency"},
@@ -80,7 +86,6 @@
         ],
         "hasPart":[
           {"@type":"CreativeWork","position":0,"name":"The Awakening: From Classroom to Career Consulting","url":"https://iqra.jarifurrahim.one/chapters/00-the-awakening-from-classroom-to-consulting.html"},
-          {"@type":"CreativeWork","position":1,"name":"The Day You Realise Your Career Was Never About a Job","url":"https://iqra.jarifurrahim.one/chapters/01-the-day-you-realise.html"},
           {"@type":"CreativeWork","position":2,"name":"The Question of Capability","url":"https://iqra.jarifurrahim.one/chapters/02-the-question-of-capability.html"},
           {"@type":"CreativeWork","position":3,"name":"Bridging the Intelligence Gap","url":"https://iqra.jarifurrahim.one/chapters/03-bridging-the-intelligence-gap.html"},
           {"@type":"CreativeWork","position":4,"name":"When Sand Learned to Think","url":"https://iqra.jarifurrahim.one/chapters/04-when-sand-learned-to-think.html"},
@@ -99,7 +104,8 @@
           {"@type":"CreativeWork","position":17,"name":"Awaken, Jago, Bodhi, Shema, Iqra","url":"https://iqra.jarifurrahim.one/chapters/17-awaken-jago-bodhi-shema-iqra.html"},
           {"@type":"CreativeWork","position":18,"name":"Great Responsibility Makes Great Power","url":"https://iqra.jarifurrahim.one/chapters/18-great-responsibility-makes-great-power.html"},
           {"@type":"CreativeWork","position":19,"name":"The Builder's Evidence","url":"https://iqra.jarifurrahim.one/chapters/19-the-builders-evidence.html"},
-          {"@type":"CreativeWork","position":20,"name":"A Charter for the Age of Agents","url":"https://iqra.jarifurrahim.one/chapters/20-a-charter-for-the-age-of-agents.html"}
+          {"@type":"CreativeWork","position":20,"name":"A Charter for the Age of Agents","url":"https://iqra.jarifurrahim.one/chapters/20-a-charter-for-the-age-of-agents.html"},
+          {"@type":"CreativeWork","position":21,"name":"The Day You Realise Your Career Was Never About a Job","url":"https://iqra.jarifurrahim.one/chapters/01-the-day-you-realise.html"}
         ]
       }
     </script>
@@ -111,10 +117,10 @@
       <h1>Reconnecting<br />Intelligence<br />With The Soul</h1>
       <p class="subtitle">Agency, responsibility, and system design in the age of AI.</p>
       <div class="rule"></div>
+      <p class="edition-actions"><a href="downloads/reconnecting-intelligence-with-the-soul-book-edition-0.1.pdf">Download the PDF Edition</a><span>87-page US trade edition · DOI-ready release</span></p>
       <p class="manifesto"><strong>This is not a collection of blog posts.</strong> It is a living work built from public essays, DOI-linked research notes, project evidence, and documented systems. Its central question is simple: when a system becomes powerful enough to act, how can it remain accountable to the human purpose it was built to serve?</p>
       <section class="chapter-grid" aria-label="Published chapters">
         <a class="chapter" href="chapters/00-the-awakening-from-classroom-to-consulting.html"><span class="chapter-number">Chapter 0 · The Origin</span><h2>The Awakening: From Classroom to Career Consulting</h2><p>The actual question that began the journey: what does computer knowledge mean if it cannot become real capability in life?</p></a>
-        <a class="chapter" href="chapters/01-the-day-you-realise.html"><span class="chapter-number">Chapter 1 · Reserved</span><h2>The Day You Realise Your Career Was Never About a Job</h2><p>An intentional blank chapter, held for the final position in the completed work.</p></a>
         <a class="chapter" href="chapters/02-the-question-of-capability.html"><span class="chapter-number">Chapter 2 · Capability</span><h2>The Question of Capability</h2><p>Why information, skill, agency, and responsibility must not be treated as the same thing.</p></a>
         <a class="chapter" href="chapters/03-bridging-the-intelligence-gap.html"><span class="chapter-number">Chapter 3 · Literacy</span><h2>Bridging the Intelligence Gap</h2><p>How to use AI without surrendering judgment, context, or accountability.</p></a>
         <a class="chapter" href="chapters/04-when-sand-learned-to-think.html"><span class="chapter-number">Chapter 4 · Boundary</span><h2>When Sand Learned to Think</h2><p>A careful distinction between technical output, lived experience, and moral responsibility.</p></a>
@@ -134,6 +140,7 @@
         <a class="chapter" href="chapters/18-great-responsibility-makes-great-power.html"><span class="chapter-number">Chapter 18 · Responsibility</span><h2>Great Responsibility Makes Great Power</h2><p>How sustained responsibility develops the trust, skill, evidence, and resources needed for real work.</p></a>
         <a class="chapter" href="chapters/19-the-builders-evidence.html"><span class="chapter-number">Chapter 19 · Evidence</span><h2>The Builder’s Evidence</h2><p>How case files, limitations, revision records, and documented work make an idea inspectable.</p></a>
         <a class="chapter" href="chapters/20-a-charter-for-the-age-of-agents.html"><span class="chapter-number">Chapter 20 · Charter</span><h2>A Charter for the Age of Agents</h2><p>A practical framework for using powerful systems while protecting human purpose, agency, and repair.</p></a>
+        <a class="chapter" href="chapters/01-the-day-you-realise.html"><span class="chapter-number">Final Chapter · Reserved</span><h2>The Day You Realise Your Career Was Never About a Job</h2><p>Held for the reader who has travelled through every chapter before it. This final reading remains intentionally reserved.</p></a>
       </section>
       <section class="topics" aria-labelledby="topics-title">
         <h2 id="topics-title">What this book explores</h2>

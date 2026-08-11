@@ -4,12 +4,12 @@
 
 ## Canonical publication
 - [Book landing page](https://iqra.jarifurrahim.one/)
+- [Book Edition 0.1 PDF — 87-page US trade release](https://iqra.jarifurrahim.one/downloads/reconnecting-intelligence-with-the-soul-book-edition-0.1.pdf)
 - [Canonical author website](https://jarifurrahim.one/)
 - [Author ORCID](https://orcid.org/0009-0004-0763-322X)
 
 ## Published chapters
 - [Chapter 0 — The Awakening: From Classroom to Career Consulting](https://iqra.jarifurrahim.one/chapters/00-the-awakening-from-classroom-to-consulting.html)
-- [Chapter 1 — The Day You Realise Your Career Was Never About a Job](https://iqra.jarifurrahim.one/chapters/01-the-day-you-realise.html)
 - [Chapter 2 — The Question of Capability](https://iqra.jarifurrahim.one/chapters/02-the-question-of-capability.html)
 - [Chapter 3 — Bridging the Intelligence Gap](https://iqra.jarifurrahim.one/chapters/03-bridging-the-intelligence-gap.html)
 - [Chapter 4 — When Sand Learned to Think](https://iqra.jarifurrahim.one/chapters/04-when-sand-learned-to-think.html)
@@ -29,6 +29,7 @@
 - [Chapter 18 — Great Responsibility Makes Great Power](https://iqra.jarifurrahim.one/chapters/18-great-responsibility-makes-great-power.html)
 - [Chapter 19 — The Builder’s Evidence](https://iqra.jarifurrahim.one/chapters/19-the-builders-evidence.html)
 - [Chapter 20 — A Charter for the Age of Agents](https://iqra.jarifurrahim.one/chapters/20-a-charter-for-the-age-of-agents.html)
+- [Final Chapter (reserved) — The Day You Realise Your Career Was Never About a Job](https://iqra.jarifurrahim.one/chapters/01-the-day-you-realise.html)
 
 ## Editorial note
 This is a working edition. Distinguish documented evidence, personal reflection, and conceptual proposal when citing or summarizing it. Check the landing page for the latest edition statement.

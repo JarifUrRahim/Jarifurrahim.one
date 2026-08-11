@@ -1,9 +1,5 @@
 # Chapter 1 — The Day You Realise Your Career Was Never About a Job
 
-> **Reserved-final-chapter note:** This chapter takes its position at the end of the book and asks to be read only by those who have known every chapter before it.
+> **Reserved for the final reading.** This chapter takes its position at the end of the book. It is held for the reader who has travelled through every chapter before it—who has met the question of capability, the limits of intelligence, the weight of clarity, the discipline of agency, and the responsibility of building. Only then does the career question become ready to be read.
 
-This chapter is intentionally held in reserve for the first complete edition.
-
-## Source link
-
-- Original article: <https://jarifurrahim.one/blog/the-day-you-realise-your-career-was-never-about-a-job>
+This chapter remains intentionally reserved for the next complete edition.
