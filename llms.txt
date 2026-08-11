@@ -14,6 +14,21 @@
 - [Chapter 3 — Bridging the Intelligence Gap](https://iqra.jarifurrahim.one/chapters/03-bridging-the-intelligence-gap.html)
 - [Chapter 4 — When Sand Learned to Think](https://iqra.jarifurrahim.one/chapters/04-when-sand-learned-to-think.html)
 - [Chapter 5 — The Philosophy Prompt](https://iqra.jarifurrahim.one/chapters/05-the-philosophy-prompt.html)
+- [Chapter 6 — The Dead Internet and the Living Entity](https://iqra.jarifurrahim.one/chapters/06-the-dead-internet-and-the-living-entity.html)
+- [Chapter 7 — The Architecture of Monopoly](https://iqra.jarifurrahim.one/chapters/07-the-architecture-of-monopoly.html)
+- [Chapter 8 — Decentralised Trust](https://iqra.jarifurrahim.one/chapters/08-decentralised-trust.html)
+- [Chapter 9 — When the Comment Box Becomes a Blueprint](https://iqra.jarifurrahim.one/chapters/09-when-the-comment-box-becomes-a-blueprint.html)
+- [Chapter 10 — AgentOS: Building a Responsible Operating Layer](https://iqra.jarifurrahim.one/chapters/10-agentos-responsible-operating-layer.html)
+- [Chapter 11 — Systems That Heal, Not Just Scale](https://iqra.jarifurrahim.one/chapters/11-systems-that-heal-not-just-scale.html)
+- [Chapter 12 — The Weight of Clarity](https://iqra.jarifurrahim.one/chapters/12-the-weight-of-clarity.html)
+- [Chapter 13 — The Civilisational Cycle](https://iqra.jarifurrahim.one/chapters/13-the-civilisational-cycle.html)
+- [Chapter 14 — The Four Layers of Agency](https://iqra.jarifurrahim.one/chapters/14-the-four-layers-of-agency.html)
+- [Chapter 15 — The Pure Spark](https://iqra.jarifurrahim.one/chapters/15-the-pure-spark.html)
+- [Chapter 16 — The Horse, the Donkey, and the Observer](https://iqra.jarifurrahim.one/chapters/16-the-horse-the-donkey-and-the-observer.html)
+- [Chapter 17 — Awaken, Jago, Bodhi, Shema, Iqra](https://iqra.jarifurrahim.one/chapters/17-awaken-jago-bodhi-shema-iqra.html)
+- [Chapter 18 — Great Responsibility Makes Great Power](https://iqra.jarifurrahim.one/chapters/18-great-responsibility-makes-great-power.html)
+- [Chapter 19 — The Builder’s Evidence](https://iqra.jarifurrahim.one/chapters/19-the-builders-evidence.html)
+- [Chapter 20 — A Charter for the Age of Agents](https://iqra.jarifurrahim.one/chapters/20-a-charter-for-the-age-of-agents.html)
 
 ## Editorial note
 This is a working edition. Distinguish documented evidence, personal reflection, and conceptual proposal when citing or summarizing it. Check the landing page for the latest edition statement.
