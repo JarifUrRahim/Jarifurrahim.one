@@ -11,6 +11,6 @@ The recommended public address is **`iqra.jarifurrahim.one`**.
    - **Target / Value:** `jarifurrahim.github.io`
 2. In `JarifUrRahim/Jarifurrahim.one` → **Settings** → **Pages**, enter `iqra.jarifurrahim.one` under **Custom domain** and save.
 3. Wait for DNS verification, then enable **Enforce HTTPS**.
-4. After verification, update the canonical URLs, sitemap, and `llms.txt` from the temporary GitHub Pages URL to `https://iqra.jarifurrahim.one/`.
+4. After verification, update the canonical URLs, sitemap, and `llms.txt` from the temporary GitHub Pages URL to `https://iqra.jarifurrahim.one/`. This is now complete.
 
 Do not add the `CNAME` file before GitHub verifies the domain; GitHub Pages will create and maintain it after the custom-domain setting is saved.

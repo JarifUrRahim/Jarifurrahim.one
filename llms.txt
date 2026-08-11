@@ -3,13 +3,13 @@
 > A living HTML book by G. K. M. Jarif Ur Rahim on responsible AI, human agency, cognitive system design, the future of work, and the philosophy of intelligence.
 
 ## Canonical publication
-- [Book landing page](https://jarifurrahim.github.io/Jarifurrahim.one/)
+- [Book landing page](https://iqra.jarifurrahim.one/)
 - [Canonical author website](https://jarifurrahim.one/)
 - [Author ORCID](https://orcid.org/0009-0004-0763-322X)
 
 ## Published chapters
-- [Chapter 0 — The Awakening: From Classroom to Career Consulting](https://jarifurrahim.github.io/Jarifurrahim.one/chapters/00-the-awakening-from-classroom-to-consulting.html)
-- [Chapter 1 — The Day You Realise Your Career Was Never About a Job](https://jarifurrahim.github.io/Jarifurrahim.one/chapters/01-the-day-you-realise.html)
+- [Chapter 0 — The Awakening: From Classroom to Career Consulting](https://iqra.jarifurrahim.one/chapters/00-the-awakening-from-classroom-to-consulting.html)
+- [Chapter 1 — The Day You Realise Your Career Was Never About a Job](https://iqra.jarifurrahim.one/chapters/01-the-day-you-realise.html)
 
 ## Editorial note
 This is a working edition. Distinguish documented evidence, personal reflection, and conceptual proposal when citing or summarizing it. Check the landing page for the latest edition statement.

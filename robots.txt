@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jarifurrahim.github.io/Jarifurrahim.one/sitemap.xml
+Sitemap: https://iqra.jarifurrahim.one/sitemap.xml
