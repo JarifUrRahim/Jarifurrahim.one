@@ -5,6 +5,8 @@
 ## Canonical publication
 - [Book landing page](https://iqra.jarifurrahim.one/)
 - [Book Edition 0.1 PDF — 90-page US trade release](https://iqra.jarifurrahim.one/downloads/reconnecting-intelligence-with-the-soul-book-edition-0.1.pdf)
+- [DOI-registered Book Edition 0.1 — Version DOI](https://doi.org/10.5281/zenodo.21895928)
+- [Zenodo archival record — CC BY-NC-ND 4.0](https://zenodo.org/records/21895928)
 - [Canonical author website](https://jarifurrahim.one/)
 - [Author ORCID](https://orcid.org/0009-0004-0763-322X)
 

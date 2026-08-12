@@ -33,9 +33,15 @@
       h1 { margin:18px 0 24px; max-width:870px; font-size:clamp(3.25rem, 8.5vw, 7rem); line-height:.92; letter-spacing:-.065em; font-weight:500; }
       .subtitle { max-width:700px; margin:0; color:#3d3742; font-size:clamp(1.25rem,2vw,1.65rem); line-height:1.45; }
       .rule { width:72px; height:2px; margin:44px 0; background:var(--gold); }
-      .edition-actions { display:flex; align-items:center; flex-wrap:wrap; gap:14px; margin:-18px 0 42px; font:600 12px/1.2 Arial,sans-serif; letter-spacing:.05em; text-transform:uppercase; }
+      .edition-actions { display:flex; align-items:center; flex-wrap:wrap; gap:14px; margin:-18px 0 24px; font:600 12px/1.2 Arial,sans-serif; letter-spacing:.05em; text-transform:uppercase; }
       .edition-actions a { padding:11px 14px; border:1px solid var(--violet); background:var(--violet); color:#fff; text-decoration:none; }
       .edition-actions span { color:var(--muted); }
+      .record-panel { display:grid; grid-template-columns:1.35fr 1fr; gap:18px; margin:0 0 42px; padding:20px 22px; border:1px solid var(--line); background:#fbfaf6; }
+      .record-panel h2 { margin:0 0 7px; font-size:1.08rem; font-weight:500; }
+      .record-panel p { margin:0; color:var(--muted); font-size:.92rem; }
+      .record-panel a { font-family:Arial,sans-serif; font-size:.84rem; font-weight:700; }
+      .record-facts { display:flex; align-items:center; justify-content:flex-end; flex-wrap:wrap; gap:8px; align-content:center; }
+      .record-facts span { padding:6px 8px; border:1px solid var(--line); color:#3d3742; font:600 10px/1.15 Arial,sans-serif; letter-spacing:.05em; text-transform:uppercase; }
       .manifesto { max-width:790px; font-size:1.17rem; }
       .manifesto strong { color:var(--violet); }
       .chapter-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin:52px 0 42px; }
@@ -53,7 +59,7 @@
       .topic-list li { padding:7px 10px; border:1px solid var(--line); color:#3d3742; font:600 12px/1.1 Arial,sans-serif; letter-spacing:.03em; }
       footer { border-top:1px solid var(--line); padding:34px 0 48px; color:var(--muted); font:13px/1.65 Arial,sans-serif; }
       footer p { margin:0 0 9px; }
-      @media (max-width:650px) { .shell { padding:0 20px; } main { padding-top:8vh; } .chapter-grid { grid-template-columns:1fr; } .topbar .shell { align-items:flex-start; flex-direction:column; justify-content:center; gap:7px; } }
+      @media (max-width:650px) { .shell { padding:0 20px; } main { padding-top:8vh; } .chapter-grid,.record-panel { grid-template-columns:1fr; } .record-facts { justify-content:flex-start; } .topbar .shell { align-items:flex-start; flex-direction:column; justify-content:center; gap:7px; } }
     </style>
     <script type="application/ld+json">
       {
@@ -67,13 +73,18 @@
         "inLanguage":"en",
         "datePublished":"2026-08-12",
         "dateModified":"2026-08-12",
-        "creativeWorkStatus":"Draft living edition",
+        "creativeWorkStatus":"Published Edition 0.1",
         "bookFormat":"https://schema.org/EBook",
         "numberOfPages":90,
+        "identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.5281/zenodo.21895928","url":"https://doi.org/10.5281/zenodo.21895928"},
+        "sameAs":"https://zenodo.org/records/21895928",
+        "license":"https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "copyrightHolder":{"@type":"Person","name":"G. K. M. Jarif Ur Rahim"},
         "genre":["Responsible AI","Philosophy of Technology","Cognitive System Design"],
         "keywords":"responsible AI, AI ethics, human agency, cognitive system design, philosophy of intelligence, future of work, AI literacy, technology and human values",
         "author":{"@type":"Person","name":"G. K. M. Jarif Ur Rahim","url":"https://jarifurrahim.one","sameAs":["https://orcid.org/0009-0004-0763-322X"]},
-        "publisher":{"@type":"Organization","name":"Rashik - The Awakening","url":"https://www.rashik.org/"},
+        "publisher":{"@type":"Organization","name":"Zenodo","url":"https://zenodo.org/"},
+        "provider":{"@type":"Organization","name":"Rashik - The Awakening","url":"https://www.rashik.org/"},
         "description":"A living, evidence-bearing work on responsible artificial intelligence, human agency, cognitive system design, and the future of work.",
         "isAccessibleForFree":true,
         "associatedMedia":{"@type":"MediaObject","contentUrl":"https://iqra.jarifurrahim.one/downloads/reconnecting-intelligence-with-the-soul-book-edition-0.1.pdf","encodingFormat":"application/pdf","name":"Reconnecting Intelligence With The Soul — Book Edition 0.1 PDF"},
@@ -111,13 +122,17 @@
     </script>
   </head>
   <body>
-    <header class="topbar"><div class="shell"><a class="brand" href="./">Rashik — The Awakening</a><span class="edition">Book Edition 0.1 · Working HTML Release</span></div></header>
+    <header class="topbar"><div class="shell"><a class="brand" href="./">Rashik — The Awakening</a><span class="edition">Book Edition 0.1 · DOI-registered release</span></div></header>
     <main class="shell">
       <div class="eyebrow">A living book by G. K. M. Jarif Ur Rahim</div>
       <h1>Reconnecting<br />Intelligence<br />With The Soul</h1>
       <p class="subtitle">Agency, responsibility, and system design in the age of AI.</p>
       <div class="rule"></div>
-      <p class="edition-actions"><a href="downloads/reconnecting-intelligence-with-the-soul-book-edition-0.1.pdf">Download the PDF Edition</a><span>90-page US trade edition · DOI-ready release</span></p>
+      <p class="edition-actions"><a href="downloads/reconnecting-intelligence-with-the-soul-book-edition-0.1.pdf">Download the PDF Edition</a><span>90-page US trade edition · DOI-registered release</span></p>
+      <section class="record-panel" aria-labelledby="doi-record-title">
+        <div><h2 id="doi-record-title">DOI-registered book edition</h2><p>Published 12 August 2026 as Version v1. <a href="https://doi.org/10.5281/zenodo.21895928" target="_blank" rel="noopener noreferrer">10.5281/zenodo.21895928</a> · <a href="https://zenodo.org/records/21895928" target="_blank" rel="noopener noreferrer">View the Zenodo record</a></p></div>
+        <div class="record-facts"><span>CC BY-NC-ND 4.0</span><span>Book · v1</span><span>Open PDF</span></div>
+      </section>
       <p class="manifesto"><strong>This is not a collection of blog posts.</strong> It is a living work built from public essays, DOI-linked research notes, project evidence, and documented systems. Its central question is simple: when a system becomes powerful enough to act, how can it remain accountable to the human purpose it was built to serve?</p>
       <section class="chapter-grid" aria-label="Published chapters">
         <a class="chapter" href="chapters/00-the-awakening-from-classroom-to-consulting.html"><span class="chapter-number">Chapter 0 · The Origin</span><h2>The Awakening: From Classroom to Career Consulting</h2><p>The actual question that began the journey: what does computer knowledge mean if it cannot become real capability in life?</p></a>
