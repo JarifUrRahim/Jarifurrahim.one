@@ -39,6 +39,8 @@ This is a separately composed public reading movement. It does not revise, reord
 - [Edition 2 landing page](https://iqra.jarifurrahim.one/edition-2/)
 - [Edition 2 PDF — 47-page US trade release](https://iqra.jarifurrahim.one/edition-2/downloads/iqra-book-edition-2.pdf)
 - [Edition 2 Bengali PDF — complete translation](https://iqra.jarifurrahim.one/edition-2/downloads/iqra-book-edition-2-bengali.pdf)
+- [DOI-registered Book Edition 2.0 — Version DOI](https://doi.org/10.5281/zenodo.21925197)
+- [Zenodo archival record — CC BY-NC-ND 4.0](https://zenodo.org/records/21925197)
 - [Chapter 1 — Embodiment Is a Condition, Not an Explanation](https://iqra.jarifurrahim.one/edition-2/chapters/01-embodiment-is-a-condition-not-an-explanation.html)
 - [Chapter 2 — Witness Beyond the Argument](https://iqra.jarifurrahim.one/edition-2/chapters/02-witness-beyond-the-argument.html)
 - [Chapter 3 — Action After Acquisition](https://iqra.jarifurrahim.one/edition-2/chapters/03-action-after-acquisition.html)
@@ -46,4 +48,4 @@ This is a separately composed public reading movement. It does not revise, reord
 - [Chapter 5 — Words at the Boundary: Iqra, Shema, Bodhi, Jago, and Awaken](https://iqra.jarifurrahim.one/edition-2/chapters/05-words-at-the-boundary.html)
 
 ## Editorial note
-Book Edition 0.1 is a DOI-registered archive. Edition 2.0 is an independent reading release. In either edition, distinguish documented evidence, personal reflection, theological reflection, and conceptual proposal when citing or summarizing it. Check each landing page for the current edition statement.
+Book Edition 0.1 and Book Edition 2.0 are separately DOI-registered archives. Edition 2.0 is an independent reading release and does not revise, reorder, or replace Edition 0.1. In either edition, distinguish documented evidence, personal reflection, theological reflection, and conceptual proposal when citing or summarizing it. Check each landing page for the current edition statement.
