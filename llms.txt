@@ -5,6 +5,7 @@
 ## Canonical publication
 - [Book landing page](https://iqra.jarifurrahim.one/)
 - [Book Edition 0.1 PDF — 90-page US trade release](https://iqra.jarifurrahim.one/downloads/reconnecting-intelligence-with-the-soul-book-edition-0.1.pdf)
+- [Book Edition 0.1 Bengali PDF — complete translation](https://iqra.jarifurrahim.one/downloads/reconnecting-intelligence-with-the-soul-book-edition-0.1-bengali.pdf)
 - [DOI-registered Book Edition 0.1 — Version DOI](https://doi.org/10.5281/zenodo.21895928)
 - [Zenodo archival record — CC BY-NC-ND 4.0](https://zenodo.org/records/21895928)
 - [Canonical author website](https://jarifurrahim.one/)
@@ -37,6 +38,7 @@
 This is a separately composed public reading movement. It does not revise, reorder, or replace DOI-registered Book Edition 0.1.
 - [Edition 2 landing page](https://iqra.jarifurrahim.one/edition-2/)
 - [Edition 2 PDF — 47-page US trade release](https://iqra.jarifurrahim.one/edition-2/downloads/iqra-book-edition-2.pdf)
+- [Edition 2 Bengali PDF — complete translation](https://iqra.jarifurrahim.one/edition-2/downloads/iqra-book-edition-2-bengali.pdf)
 - [Chapter 1 — Embodiment Is a Condition, Not an Explanation](https://iqra.jarifurrahim.one/edition-2/chapters/01-embodiment-is-a-condition-not-an-explanation.html)
 - [Chapter 2 — Witness Beyond the Argument](https://iqra.jarifurrahim.one/edition-2/chapters/02-witness-beyond-the-argument.html)
 - [Chapter 3 — Action After Acquisition](https://iqra.jarifurrahim.one/edition-2/chapters/03-action-after-acquisition.html)
