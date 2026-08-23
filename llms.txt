@@ -9,7 +9,15 @@
 - [DOI-registered Book Edition 0.1 — Version DOI](https://doi.org/10.5281/zenodo.21895928)
 - [Zenodo archival record — CC BY-NC-ND 4.0](https://zenodo.org/records/21895928)
 - [Canonical author website](https://jarifurrahim.one/)
+- [Author evidence record](https://jarifurrahim.one/evidence)
 - [Author ORCID](https://orcid.org/0009-0004-0763-322X)
+
+## Reader pathways
+These pathways add reader navigation only. They do not revise chapter text, DOI records, or the distinction between documented evidence, reflection, theology, and conceptual proposal.
+- [Responsible AI, Human Oversight & Agency](https://iqra.jarifurrahim.one/themes/responsible-ai-human-oversight.html)
+- [Evidence, Trust & Digital Identity](https://iqra.jarifurrahim.one/themes/evidence-trust-digital-identity.html)
+- [Career Capability & Responsible Work](https://iqra.jarifurrahim.one/themes/career-capability-responsible-work.html)
+- [Human-Centred Systems Design](https://iqra.jarifurrahim.one/themes/human-centred-systems-design.html)
 
 ## Published chapters
 - [Chapter 0 — The Awakening: From Classroom to Career Consulting](https://iqra.jarifurrahim.one/chapters/00-the-awakening-from-classroom-to-consulting.html)
