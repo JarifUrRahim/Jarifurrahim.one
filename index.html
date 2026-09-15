@@ -28,6 +28,8 @@
       .topbar a { text-decoration:none; color:var(--ink); }
       .brand { font-weight:800; }
       .edition { color:var(--muted); font-weight:500; }
+      .top-actions { display:flex; align-items:center; gap:14px; }
+      .top-actions .author-link { color:var(--violet); font-weight:800; }
       main { padding:10vh 0 7vh; }
       .eyebrow { color:var(--gold); font:700 12px/1 Arial,sans-serif; letter-spacing:.18em; text-transform:uppercase; }
       h1 { margin:18px 0 24px; max-width:870px; font-size:clamp(3.25rem, 8.5vw, 7rem); line-height:.92; letter-spacing:-.065em; font-weight:500; }
@@ -93,7 +95,7 @@
         "copyrightHolder":{"@type":"Person","name":"G. K. M. Jarif Ur Rahim"},
         "genre":["Responsible AI","Philosophy of Technology","Cognitive System Design"],
         "keywords":"responsible AI, AI ethics, human agency, cognitive system design, philosophy of intelligence, future of work, AI literacy, technology and human values",
-        "author":{"@type":"Person","name":"G. K. M. Jarif Ur Rahim","url":"https://jarifurrahim.one","sameAs":["https://orcid.org/0009-0004-0763-322X"]},
+        "author":{"@type":"Person","@id":"https://jarifurrahim.one/#person","name":"G. K. M. Jarif Ur Rahim","url":"https://jarifurrahim.one","sameAs":["https://orcid.org/0009-0004-0763-322X"]},
         "publisher":{"@type":"Organization","name":"Zenodo","url":"https://zenodo.org/"},
         "provider":{"@type":"Organization","name":"Rashik - The Awakening","url":"https://www.rashik.org/"},
         "description":"A living, evidence-bearing work on responsible artificial intelligence, human agency, cognitive system design, and the future of work.",
@@ -136,7 +138,7 @@
     </script>
   </head>
   <body>
-    <header class="topbar"><div class="shell"><a class="brand" href="./">Rashik — The Awakening</a><span class="edition">Book Edition 0.1 · DOI-registered release</span></div></header>
+    <header class="topbar"><div class="shell"><a class="brand" href="./">Rashik — The Awakening</a><div class="top-actions"><a class="author-link" href="author/" rel="author">Author</a><span class="edition">Book Edition 0.1 · DOI-registered release</span></div></div></header>
     <main class="shell">
       <div class="eyebrow">A living book by G. K. M. Jarif Ur Rahim</div>
       <h1>Reconnecting<br />Intelligence<br />With The Soul</h1>
@@ -191,6 +193,6 @@
       </section>
       <aside class="note"><p><strong>Edition note.</strong> Chapter sequencing will evolve while the manuscript grows. Every future version will identify its changes, preserve a stable release record, and distinguish personal reflection, documented evidence, and conceptual proposal.</p></aside>
     </main>
-    <footer><div class="shell"><p>© 2026 G. K. M. Jarif Ur Rahim · Rashik — The Awakening</p><p>Canonical author website: <a href="https://jarifurrahim.one" rel="author">jarifurrahim.one</a> · <a href="https://jarifurrahim.one/evidence">author evidence record</a> · Research profile: <a href="https://orcid.org/0009-0004-0763-322X">ORCID</a></p></div></footer>
+    <footer><div class="shell"><p>© 2026 G. K. M. Jarif Ur Rahim · Rashik — The Awakening</p><p><a href="author/" rel="author">Author page</a> · Canonical author website: <a href="https://jarifurrahim.one" rel="author">jarifurrahim.one</a> · <a href="https://jarifurrahim.one/evidence">author evidence record</a> · Research profile: <a href="https://orcid.org/0009-0004-0763-322X">ORCID</a></p></div></footer>
   </body>
 </html>

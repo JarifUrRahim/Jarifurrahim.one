@@ -33,7 +33,7 @@ const renderDiscoveryPanel = (slug) => {
     <p><strong>Related reader pathways:</strong> ${themeLinks}</p>
     <p><strong>Scope boundary:</strong> ${escapeHtml(entry.boundary)}</p>
     ${bridge}
-    <p class="publication-line"><strong>Publication record:</strong> ${escapeHtml(edition.label)} · <a href="${edition.doiUrl}" target="_blank" rel="noopener noreferrer">DOI ${escapeHtml(edition.doi)}</a> · <a href="${publication.author.url}" rel="author">Author: ${escapeHtml(publication.author.name)}</a> · <a href="${publication.author.orcid}" target="_blank" rel="noopener noreferrer">ORCID</a></p>
+    <p class="publication-line"><strong>Publication record:</strong> ${escapeHtml(edition.label)} · <a href="${edition.doiUrl}" target="_blank" rel="noopener noreferrer">DOI ${escapeHtml(edition.doi)}</a> · <a href="${publication.author.pageUrl}" rel="author">Author: ${escapeHtml(publication.author.name)}</a> · <a href="${publication.author.orcid}" target="_blank" rel="noopener noreferrer">ORCID</a></p>
   </section>`;
 };
 
@@ -116,7 +116,7 @@ for (const file of sourceFiles) {
     url: chapterUrl,
     name: title,
     isPartOf: { '@id': `${edition.rootUrl}#book` },
-    author: { '@type': 'Person', name: publication.author.name, url: publication.author.url, sameAs: [publication.author.orcid] },
+    author: { '@type': 'Person', '@id': 'https://jarifurrahim.one/#person', name: publication.author.name, url: publication.author.url, sameAs: [publication.author.orcid] },
     inLanguage: 'en',
     about: (discovery?.themeIds || []).map((themeId) => ({ '@type': 'DefinedTerm', name: themes[themeId].title, url: themeHref(themeId) })),
   }).replace(/</g, '\\u003c');
@@ -127,7 +127,7 @@ for (const file of sourceFiles) {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="${chapterUrl}" />
-  <link rel="author" href="${publication.author.url}" />
+  <link rel="author" href="${publication.author.pageUrl}" />
   <meta name="author" content="${escapeHtml(publication.author.name)}" />
   <title>${escapeHtml(title)} | Reconnecting Intelligence With The Soul</title>
   <meta name="description" content="${escapeHtml(title)} — a chapter from Reconnecting Intelligence With The Soul by G. K. M. Jarif Ur Rahim." />
@@ -139,7 +139,7 @@ for (const file of sourceFiles) {
 <body>
   <header class="top"><div><a href="../">Iqra · Reconnecting Intelligence With The Soul</a><span>Book Edition 0.1</span></div></header>
   <main class="shell">${body}${renderDiscoveryPanel(slug)}<a class="back" href="../">← Back to the book</a></main>
-  <footer class="foot">© 2026 G. K. M. Jarif Ur Rahim · <a href="${publication.author.url}" rel="author">Author record</a> · <a href="${publication.author.orcid}" target="_blank" rel="noopener noreferrer">ORCID</a></footer>
+  <footer class="foot">© 2026 G. K. M. Jarif Ur Rahim · <a href="${publication.author.pageUrl}" rel="author">Author record</a> · <a href="${publication.author.url}">Canonical portfolio</a> · <a href="${publication.author.orcid}" target="_blank" rel="noopener noreferrer">ORCID</a></footer>
 </body>
 </html>`;
   fs.writeFileSync(path.join(outputDir, outName), html.replace(/[ \t]+$/gm, ''));

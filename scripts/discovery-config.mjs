@@ -4,6 +4,8 @@ export const publication = {
   author: {
     name: 'G. K. M. Jarif Ur Rahim',
     url: 'https://jarifurrahim.one',
+    pageUrl: 'https://iqra.jarifurrahim.one/author/',
+    imageUrl: 'https://iqra.jarifurrahim.one/assets/author/g-k-m-jarif-ur-rahim-riws-author.webp',
     evidenceUrl: 'https://jarifurrahim.one/evidence',
     orcid: 'https://orcid.org/0009-0004-0763-322X',
   },
