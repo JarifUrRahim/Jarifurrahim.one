@@ -22,6 +22,9 @@ for (const needle of [
   'https://doi.org/10.5281/zenodo.21895928',
   'https://doi.org/10.5281/zenodo.21925197',
   canonicalPersonId,
+  'A question before a claim',
+  'https://www.google.com/search?kgmid=/g/11z1lszj5x',
+  'https://profile.google.com/cp/Cg0vZy8xMXoxbHN6ajV4',
   'Publication boundary.',
 ]) {
   if (!authorPage.includes(needle)) failures.push(`author/index.html is missing ${needle}`);
@@ -37,6 +40,9 @@ if (!jsonLdMatch) {
     const person = schema['@graph']?.find((entry) => entry['@type'] === 'Person');
     if (profile?.mainEntity?.['@id'] !== canonicalPersonId) failures.push('ProfilePage does not reference the canonical Person identifier');
     if (person?.['@id'] !== canonicalPersonId) failures.push('Person schema does not use the canonical Person identifier');
+    for (const identityUrl of ['https://www.google.com/search?kgmid=/g/11z1lszj5x', 'https://profile.google.com/cp/Cg0vZy8xMXoxbHN6ajV4']) {
+      if (!person?.sameAs?.includes(identityUrl)) failures.push(`Person schema is missing verified public identity URL ${identityUrl}`);
+    }
   } catch (error) {
     failures.push(`author/index.html JSON-LD is not valid JSON: ${error.message}`);
   }
@@ -67,4 +73,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Author page validation passed: author metadata, portrait asset, 2 DOI links, sitemap, llms.txt, and ${Object.keys(chapterDiscovery).length} chapter author references verified.`);
+console.log(`Author page validation passed: author metadata, public identity URLs, portrait asset, 2 DOI links, sitemap, llms.txt, and ${Object.keys(chapterDiscovery).length} chapter author references verified.`);
