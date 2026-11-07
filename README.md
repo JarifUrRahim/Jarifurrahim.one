@@ -24,6 +24,14 @@ The private application repository remains the canonical workspace for website c
 
 The book is built from articles, DOI-linked research, and verified project case studies. It will be released in an HTML-first workflow, followed by a fixed PDF edition and a versioned DOI archive. Each stable release will include a changelog, source notes, rights credits, and a clear distinction between personal reflection, documented evidence, and conceptual proposal.
 
+## Author and Identity References
+
+**Author:** G. K. M. Jarif Ur Rahim — **Cognitive System Architect**. See the [GitHub profile](https://github.com/JarifUrRahim), [portfolio](https://jarifurrahim.one/), and [ORCID record](https://orcid.org/0009-0004-0763-322X).
+
+**Google Knowledge Graph reference (provided by the author; association not independently verified and no indexing/ranking guarantee):** [KGMID `/g/11z1lszj5x`](https://www.google.com/search?kgmid=/g/11z1lszj5x).
+
+This public book repository is not the source code for client websites. Separate public project records are available for [Daily News Bagerhat](https://jarifurrahim.one/projects/dailynewsbagerhat) and [Fluent Learner](https://jarifurrahim.one/projects/fluent-learner). Theoretical frameworks and preprints are not presented here as peer-reviewed findings unless a linked publication explicitly establishes that status.
+
 ## GitHub Pages and custom subdomain
 
 GitHub Pages can serve this repository directly once enabled from the `main` branch and repository root. The initial public URL will follow this pattern:
